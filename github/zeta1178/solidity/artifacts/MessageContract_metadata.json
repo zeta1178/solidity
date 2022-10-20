@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/zeta1178/solidity/michael.sol": "MessageContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/zeta1178/solidity/michael.sol": {
+			"keccak256": "0xbc82e44f82f1be6745db328f08d4f8a4166a97d6dd35eb2e161a1b7c0e445530",
+			"urls": [
+				"bzzr://da1b4b634caeef710e06e3c42b8b0c2ace4134ab8398f518576b39a6c2e0d147"
+			]
+		}
+	},
+	"version": 1
+}

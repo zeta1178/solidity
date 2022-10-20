@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/zeta1178/solidity/customer_contract.sol": "CustomerAccount"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/zeta1178/solidity/customer_contract.sol": {
+			"keccak256": "0xf54925a630c9c44b909d66f3bc7b3192536d785bbdb1e9ef3929016e33be99c0",
+			"urls": [
+				"bzzr://bc275d42c839a9018953905596ae49c156f2078f0b8cade5ed4ac3c997de2eb3"
+			]
+		}
+	},
+	"version": 1
+}
