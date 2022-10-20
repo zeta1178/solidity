@@ -14,7 +14,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"github/zeta1178/solidity/customer_contract.sol": "CustomerAccount"
+			"customer_contract.sol": "CustomerAccount"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -25,10 +25,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"github/zeta1178/solidity/customer_contract.sol": {
-			"keccak256": "0xf54925a630c9c44b909d66f3bc7b3192536d785bbdb1e9ef3929016e33be99c0",
+		"customer_contract.sol": {
+			"keccak256": "0xde914017a5f42b1acfef60eb7a6e57ad4a6b42f43ea1c6a608442339efac33ee",
 			"urls": [
-				"bzzr://bc275d42c839a9018953905596ae49c156f2078f0b8cade5ed4ac3c997de2eb3"
+				"bzzr://71468679c4edb29bcb40efc7dd84143c268141289e4e90a0d3ff35d93b2590aa"
 			]
 		}
 	},
