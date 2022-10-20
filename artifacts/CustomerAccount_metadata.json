@@ -4,7 +4,68 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newOwner",
+						"type": "address"
+					},
+					{
+						"name": "newAccountStatus",
+						"type": "bool"
+					},
+					{
+						"name": "newAccountBalance",
+						"type": "uint256"
+					},
+					{
+						"name": "newCustomerName",
+						"type": "string"
+					},
+					{
+						"name": "newCustomerLastName",
+						"type": "string"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"methods": {}
 		},
@@ -14,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"customer_contract.sol": "CustomerAccount"
+			"message_contract.sol": "CustomerAccount"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -25,10 +86,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"customer_contract.sol": {
-			"keccak256": "0xde914017a5f42b1acfef60eb7a6e57ad4a6b42f43ea1c6a608442339efac33ee",
+		"message_contract.sol": {
+			"keccak256": "0xa8fe1c3ff709cda5de8f407fd7d5e2ed1a1cf96c0606cc5fecb935adeb7729f0",
 			"urls": [
-				"bzzr://71468679c4edb29bcb40efc7dd84143c268141289e4e90a0d3ff35d93b2590aa"
+				"bzzr://f1326eaf71e2a44fe9ca4ec0714ef45f6720decd80ff5e4d612a32bb5e485f88"
 			]
 		}
 	},
